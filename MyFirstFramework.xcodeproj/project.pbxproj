@@ -10,6 +10,7 @@
 		E5B518E91E9E44B300826898 /* MyFirstFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B518DF1E9E44B300826898 /* MyFirstFramework.framework */; };
 		E5B518EE1E9E44B300826898 /* MyFirstFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */; };
 		E5B518F01E9E44B300826898 /* MyFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B518E21E9E44B300826898 /* MyFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518F91E9E46AD00826898 /* GetJsonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		E5B518E81E9E44B300826898 /* MyFirstFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstFrameworkTests.swift; sourceTree = "<group>"; };
 		E5B518EF1E9E44B300826898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B518F91E9E46AD00826898 /* GetJsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetJsonData.swift; path = ../GetJsonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E5B518E21E9E44B300826898 /* MyFirstFramework.h */,
+				E5B518F91E9E46AD00826898 /* GetJsonData.swift */,
 				E5B518E31E9E44B300826898 /* Info.plist */,
 			);
 			path = MyFirstFramework;
@@ -149,6 +152,7 @@
 					E5B518DE1E9E44B300826898 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = G2MLZD29CV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E5B518E71E9E44B300826898 = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		E5B518F41E9E44B300826898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G2MLZD29CV;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = colors.MyFirstFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		E5B518F51E9E44B300826898 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G2MLZD29CV;
@@ -360,6 +368,7 @@
 		E5B518F71E9E44B300826898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G2MLZD29CV;
 				INFOPLIST_FILE = MyFirstFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		E5B518F81E9E44B300826898 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G2MLZD29CV;
 				INFOPLIST_FILE = MyFirstFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
