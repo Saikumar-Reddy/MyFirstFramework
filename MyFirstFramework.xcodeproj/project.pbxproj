@@ -11,6 +11,7 @@
 		E5B518EE1E9E44B300826898 /* MyFirstFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */; };
 		E5B518F01E9E44B300826898 /* MyFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B518E21E9E44B300826898 /* MyFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518F91E9E46AD00826898 /* GetJsonData.swift */; };
+		E5B5190A1E9E559700826898 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B519091E9E559700826898 /* AddTwoNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstFrameworkTests.swift; sourceTree = "<group>"; };
 		E5B518EF1E9E44B300826898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B518F91E9E46AD00826898 /* GetJsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetJsonData.swift; path = ../GetJsonData.swift; sourceTree = "<group>"; };
+		E5B519091E9E559700826898 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				E5B518E21E9E44B300826898 /* MyFirstFramework.h */,
 				E5B518F91E9E46AD00826898 /* GetJsonData.swift */,
 				E5B518E31E9E44B300826898 /* Info.plist */,
+				E5B519091E9E559700826898 /* AddTwoNumbers.swift */,
 			);
 			path = MyFirstFramework;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */,
+				E5B5190A1E9E559700826898 /* AddTwoNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,7 @@
 				E5B518F51E9E44B300826898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B518F61E9E44B300826898 /* Build configuration list for PBXNativeTarget "MyFirstFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				E5B518F81E9E44B300826898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
