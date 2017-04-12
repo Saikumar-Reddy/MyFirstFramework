@@ -10,7 +10,6 @@
 		E5B518E91E9E44B300826898 /* MyFirstFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B518DF1E9E44B300826898 /* MyFirstFramework.framework */; };
 		E5B518EE1E9E44B300826898 /* MyFirstFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */; };
 		E5B518F01E9E44B300826898 /* MyFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B518E21E9E44B300826898 /* MyFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B518F91E9E46AD00826898 /* GetJsonData.swift */; };
 		E5B5190A1E9E559700826898 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B519091E9E559700826898 /* AddTwoNumbers.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		E5B518E81E9E44B300826898 /* MyFirstFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B518ED1E9E44B300826898 /* MyFirstFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstFrameworkTests.swift; sourceTree = "<group>"; };
 		E5B518EF1E9E44B300826898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B518F91E9E46AD00826898 /* GetJsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetJsonData.swift; path = ../GetJsonData.swift; sourceTree = "<group>"; };
 		E5B519091E9E559700826898 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				E5B518E21E9E44B300826898 /* MyFirstFramework.h */,
-				E5B518F91E9E46AD00826898 /* GetJsonData.swift */,
 				E5B518E31E9E44B300826898 /* Info.plist */,
 				E5B519091E9E559700826898 /* AddTwoNumbers.swift */,
 			);
@@ -205,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B518FA1E9E46AD00826898 /* GetJsonData.swift in Sources */,
 				E5B5190A1E9E559700826898 /* AddTwoNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

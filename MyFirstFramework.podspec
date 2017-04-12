@@ -9,7 +9,7 @@ s.homepage = "http://www.colorssoftware.com"
  s.social_media_url = "http://twitter.com/id"
  s.platform = :ios
  s.ios.deployment_target = "8.0"
- s.source = { :git => "github link of your framework", :tag => s.version }
+ s.source = { :git => "https://github.com/Saikumar-Reddy/MyFirstFramework.git", :tag => s.version }
  s.source_files = "MyFirstFramework/*.swift"
  
  s.requires_arc = true
